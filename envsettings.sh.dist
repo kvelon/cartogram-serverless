@@ -1,0 +1,10 @@
+#!/bin/bash
+
+export LAMBDA_FUNCTION_NAME="cartogram"
+
+export CARTOGRAM_PROGRESS_URL="http://localhost:5000/setprogress"
+export CARTOGRAM_PROGRESS_SECRET=""
+export LAMBDA_TASK_ROOT="$(pwd)/lambda_package"
+
+export LAMBDA_SIMULATOR_HOST="127.0.0.1"
+export LAMBDA_SIMULATOR_PORT="5050"
