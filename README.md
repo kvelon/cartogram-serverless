@@ -2,6 +2,8 @@
 
 This repository contains Python code to allow the cartogram generator to be called in an AWS Lambda function. The lambda function code can be found in `lambda_package/lambda_function.py`.
 
+If you encounter any issues, or have any questions, please contact Ian Duncan at ian.duncan@u.yale-nus.edu.sg.
+
 ## Setting Up Local Development
 
 This repository comes with some helper scripts to simulate the AWS Lambda environment on your machine. This allows you to test changes to the Lambda function code locally, and to run the new serverless cartogram web application locally. There are only a few steps you need to follow to set up local development.
